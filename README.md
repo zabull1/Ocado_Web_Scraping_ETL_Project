@@ -54,5 +54,11 @@ To run this project, follow these steps:
 - 3.	Run the load.py script using python load.py. This will create a table called products in your Redshift database and load the data from your S3 bucket.
 - 4.	Run the analyze.py script using python analyze.py. This will execute some SQL queries on your Redshift database and print out the results.
 
+# Improvements
+- 1. The readme file needs tidying up (dataset documentation, architecture diagram, AWS setup ETC).
+  2. Unit testing
+  3. Airflow Orchestration
+  4. Tableau Dashboard
+
 # License
 This project is licensed under the MIT License - see the [LICENSE] file for details.
